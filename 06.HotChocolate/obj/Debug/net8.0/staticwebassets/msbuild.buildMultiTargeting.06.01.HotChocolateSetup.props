@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\06.01.HotChocolateSetup.props" />
+</Project>

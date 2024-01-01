@@ -1,0 +1,29 @@
+[
+  {
+    "name": "GraphQLHttpFunction",
+    "scriptFile": "06.04.HotChocolateAzureFunction.dll",
+    "entryPoint": "_06_04.HotChocolateAzureFunction.GraphQLFunction.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "request",
+        "type": "httpTrigger",
+        "direction": "In",
+        "authLevel": "Anonymous",
+        "methods": [
+          "get",
+          "post"
+        ],
+        "route": "graphql/{**slug}"
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  }
+]

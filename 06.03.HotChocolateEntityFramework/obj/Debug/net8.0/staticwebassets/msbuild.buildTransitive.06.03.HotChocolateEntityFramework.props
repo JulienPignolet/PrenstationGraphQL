@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\06.03.HotChocolateEntityFramework.props" />
+</Project>

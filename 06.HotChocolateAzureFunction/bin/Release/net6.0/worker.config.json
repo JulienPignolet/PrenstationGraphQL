@@ -1,0 +1,8 @@
+{
+  "description": {
+    "language": "dotnet-isolated",
+    "extensions": [ ".dll" ],
+    "defaultExecutablePath": "dotnet",
+    "defaultWorkerPath": "06.04.HotChocolateAzureFunction.dll"
+  }
+}

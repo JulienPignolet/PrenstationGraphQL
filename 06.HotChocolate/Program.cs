@@ -1,11 +1,14 @@
+using _06_01.HotChocolateSetup;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.AddGraphQLServer()
+    .AddQueryType<Query>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-
 app.UseHttpsRedirection();
+
+app.MapGraphQL();
 
 app.Run();

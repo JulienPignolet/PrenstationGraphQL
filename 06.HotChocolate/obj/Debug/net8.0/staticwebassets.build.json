@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "VpDX0VIiQscydW4nKkxUwH6rHpAPpp6Uu7F/luiVwhU=",
-  "Source": "06.HotChocolate",
-  "BasePath": "_content/06.HotChocolate",
+  "Hash": "6TPEb8jIhX3WzYN/szMNEjrvr4CUkr5yrHUM56EgX4Y=",
+  "Source": "06.01.HotChocolateSetup",
+  "BasePath": "_content/06.01.HotChocolateSetup",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

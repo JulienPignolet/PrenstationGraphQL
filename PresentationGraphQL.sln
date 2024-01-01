@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.HotChocolate", "06.HotChocolate\06.HotChocolate.csproj", "{701F919D-190B-4109-B7D3-5F857E305B50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.01.HotChocolateSetup", "06.HotChocolate\06.01.HotChocolateSetup.csproj", "{701F919D-190B-4109-B7D3-5F857E305B50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.02.HotChocolateDummyData", "06.HotChocolateDummyData\06.02.HotChocolateDummyData.csproj", "{EBF404F4-3173-4F50-8F7E-1ED35AC24B90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.03.HotChocolateEntityFramework", "06.03.HotChocolateEntityFramework\06.03.HotChocolateEntityFramework.csproj", "{38123860-968A-4DE2-87D2-4A72CCF12D50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.04.HotChocolateAzureFunction", "06.HotChocolateAzureFunction\06.04.HotChocolateAzureFunction.csproj", "{9200FDCC-FB23-4194-981D-16EF98270F0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{701F919D-190B-4109-B7D3-5F857E305B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{701F919D-190B-4109-B7D3-5F857E305B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{701F919D-190B-4109-B7D3-5F857E305B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF404F4-3173-4F50-8F7E-1ED35AC24B90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF404F4-3173-4F50-8F7E-1ED35AC24B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF404F4-3173-4F50-8F7E-1ED35AC24B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF404F4-3173-4F50-8F7E-1ED35AC24B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38123860-968A-4DE2-87D2-4A72CCF12D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38123860-968A-4DE2-87D2-4A72CCF12D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38123860-968A-4DE2-87D2-4A72CCF12D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38123860-968A-4DE2-87D2-4A72CCF12D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9200FDCC-FB23-4194-981D-16EF98270F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9200FDCC-FB23-4194-981D-16EF98270F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9200FDCC-FB23-4194-981D-16EF98270F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9200FDCC-FB23-4194-981D-16EF98270F0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
